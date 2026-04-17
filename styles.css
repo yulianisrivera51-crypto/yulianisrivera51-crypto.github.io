@@ -3,9 +3,11 @@
     text-align: center;
     justify-content:center;
     align-items: center;
-    padding: 2.5rem;
+    padding: 1rem;
     border-radius: 3rem;
-    margin:5rem
+    margin:5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr
 }
 
 .foto-perfil {
@@ -26,6 +28,11 @@ body{
     display: flex;
     align-items: center; 
     gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    margin: 15rem;
+
 }
 
 #menu{
@@ -38,18 +45,45 @@ body{
 
 a{
     text-decoration: none;
+    color: indigo;
 }
+
+
+
+
+
 
 header{
     display: grid;
-    grid-template-columns: 3fr 5fr ;
+    grid-template-columns: 3fr;
+    background-color: lightcoral;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin:5rem;
+    list-style: none;
+}
+
+article{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.galeria-mascotas{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
 }
 
 
-
-
-
-article{
-    display: grid;
-    grid-template-columns: ;
+img {
+    width: 50%;
+    margin: 0 auto;
 }
